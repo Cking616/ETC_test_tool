@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="motor_def.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="ETC_test_tool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ETC_test_tool.cpp">
+    <ClCompile Include="daemon_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="motor_cmd.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
