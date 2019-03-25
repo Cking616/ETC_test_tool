@@ -206,8 +206,8 @@ OSAL_THREAD_FUNC ecatcheck(void *ptr)
 					}
 				}
 			}
-			//if(!ec_group[currentgroup].docheckstate)
-			   //printf("OK : all slaves resumed OPERATIONAL.\n");
+			if(!ec_group[currentgroup].docheckstate)
+			   printf("OK : all slaves resumed OPERATIONAL.\n");
 		}
 		osal_usleep(10000);
 	}
